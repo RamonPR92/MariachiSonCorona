@@ -1,0 +1,326 @@
+/************
+*  GENERAL  *
+*************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Roboto;
+}
+
+/*Header*/
+.container-fluid {
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto
+ }
+
+header{
+    width: 100%;
+    z-index: 100;
+    
+}
+
+.fila-superior{
+    background: #ffffff;
+}
+
+.logo {
+    margin-top: 10%;
+    margin-left: 10%;    
+}
+
+.contacto-superior{
+    padding-top: 1%;
+}
+.contacto-superior a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+}
+.contacto-superior a:hover{
+    color:#000000;
+}
+
+
+nav{
+    width: 100%;
+    z-index: 100;     
+}
+
+nav ul{
+    list-style:none;
+     background: #ffffff99;
+     overflow: hidden;
+     color: #000000;
+     padding: 0px;
+     text-align: right;
+     margin: 0;
+     transition: 1s;
+     box-shadow: 1px 10px 10px rgba(0, 0, 0, .5);
+}
+
+#small-logo{
+    display: none;
+    padding-top: 12px;
+    margin-left: 140px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+    
+}
+
+nav ul li:not(:last-child){
+    border-right: 1px solid #000000;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul li a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.menu-icon{
+    width: 100%;
+    background: #000000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #ffffff;
+    display: none;
+}
+
+
+/*Fin del header*/
+
+/*Contenido*/
+.contenido{
+    background-image: url("../images/mochaGrunge.png");
+    z-index: -1000;
+}
+
+.contenido .col-lg-8{
+    padding: 0px;
+}
+
+.card a{
+    background-color: #000000;
+    border-radius: 0;
+}
+
+.card {
+    border-radius: 0;
+}
+
+/************
+*   INICIO  *
+*************/
+
+/*Slider*/
+.zona-slider{
+ margin-left: 30;
+}
+
+.carousel-caption{
+    left: 10%;
+    top: 0;
+    width: 50%;
+    height: 60%;
+    padding: 40px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, .5);
+}
+.carousel-caption h2{
+    font-size: 150%;
+}
+.sub-caption a{
+    background-color: #000000;
+    border-radius: 0;
+}
+/*Introduccion*/
+
+.introduccion .parrafo{
+ background-color: #ffffff;   
+ text-align: center;
+ padding:  30px;
+ 
+}
+
+/*Cocinas y accesorios*/
+.intro-cocinas .col-lg-8{
+    background-color: #ffffff;
+}
+.intro-cocinas .row{
+   margin-top: 30px;
+}
+
+/*Contacto y ubicacion*/
+.intro-contacto .row{
+    margin:30px;
+}
+.intro-contacto .col-lg-8{
+    background-color: #ffffff;
+}
+
+.intro-contacto p {
+    margin-top: 40px;
+    margin: 30px 20px;
+    text-align: center;
+}
+
+.formulario a{
+    text-align: left;
+    display: block;
+    padding: 10px 0%;
+    color: #000000;
+}
+.formulario a:hover{
+    text-decoration: none;
+}
+.formulario form{
+    margin-top: 20px;
+}
+
+.formulario form button{
+    background-color: #000000;
+    border-radius: 0;
+}
+/**************
+*   NOSOTROS  *
+***************/
+.cuerpo{
+    background-color: #ffffff;
+    text-align: center;
+    padding: 40px;
+}
+
+.cuerpo h2{
+    padding: 20px;
+    
+}
+
+.cuerpo .carpinteria{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.cuerpo .carpinteria .img-thumbnail{
+    height:200px; 
+}
+
+.cuerpo p{
+    padding: 20px;
+}
+
+/*************
+*   COCINAS  *
+**************/
+.cocinas .cuerpo{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.cocinas .cuerpo .card{
+    margin-top: 20px;
+} 
+
+/****************
+*   ACCESORIOS  *
+*****************/
+
+
+.accesorios{
+    background-color: #ffffff;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.materiales .img-thumbnail{
+    height: 200px;
+}
+/****************
+*   CONTACTO  *
+*****************/
+.contenido .contacto{
+    background-color: #ffffff;
+    padding: 30px;
+}
+
+.contacto h2{
+    text-align: center;
+}
+
+
+/*Footer*/
+footer{
+    background-color:  #000000;
+    color: #ffffff;
+    padding: 10px;
+}
+
+footer a{
+    color: #ffffff;
+}
+footer a:hover{
+    color: #DC9924;
+    text-decoration: none;
+}
+@media(max-width:580px){
+    .logo{
+        top:0;
+        margin-top: 16px;
+        padding: 5;
+        margin: 5;
+    }
+    nav{
+        z-index: 100;
+        padding: 0;
+    }
+
+    nav ul{
+        max-height: 0px;
+        
+        background:#ffffff;
+    }
+
+    .showing{
+        max-height: 30em;
+    }
+    
+    nav ul li{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 24px 0;
+        text-align: center;
+        
+    }
+
+    nav ul li:not(:last-child){
+        border-right: 1px solid #ffffff;
+    }
+
+    .menu-icon{
+        display: inline-block;
+        background-color: #000000;
+    }
+
+    .contacto-superior{
+        padding-left: 10%;
+    }
+
+}
