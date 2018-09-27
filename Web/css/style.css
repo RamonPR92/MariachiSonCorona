@@ -10,7 +10,7 @@
 
 
 body{
-    font-family: Roboto;
+    font-family: Bookman Old Style;
 }
 
 /*Header*/
@@ -28,27 +28,34 @@ header{
 }
 
 .fila-superior{
-    background: #ffffff;
+    background: #000000;
 }
 
 .logo {
-    margin-top: 10%;
-    margin-left: 10%;    
+    padding-left: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px; 
 }
 
 .contacto-superior{
-    padding-top: 1%;
+    padding-left: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:small;
 }
 .contacto-superior a{
-    display: block;
-    color: #000000;
+    display: inline-block;
+    color: #ffffff;
     text-decoration: none;
 }
 .contacto-superior a:hover{
-    color:#000000;
+    color:#bf930d;
 }
 
-
+.slogan{
+    color:#ffffff;
+    margin: 5% 20%;
+}
 nav{
     width: 100%;
     z-index: 100;     
@@ -56,20 +63,21 @@ nav{
 
 nav ul{
     list-style:none;
-     background: #ffffff99;
-     overflow: hidden;
-     color: #000000;
-     padding: 0px;
-     text-align: right;
-     margin: 0;
-     transition: 1s;
-     box-shadow: 1px 10px 10px rgba(0, 0, 0, .5);
+    background: #000000;
+    overflow: hidden;
+    color: #efb810;
+    padding: 0px;
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    transition: 1s;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, .5);
 }
 
 #small-logo{
     display: none;
     padding-top: 12px;
-    margin-left: 140px;
+    margin-left: 84%;
 }
 
 nav ul li {
@@ -78,17 +86,17 @@ nav ul li {
     
 }
 
-nav ul li:not(:last-child){
-    border-right: 1px solid #000000;
+nav ul li:hover{
+    color: #1c1c1c;
 }
 
 nav ul li a{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;  
 }
 
 nav ul li a:hover{
-    color: #000000;
+    color: #bf930d;
     text-decoration: none;
 }
 
@@ -99,7 +107,7 @@ nav ul li a:hover{
     box-sizing: border-box;
     padding: 15px 24px;
     cursor: pointer;
-    color: #ffffff;
+    color: #bf930d;
     display: none;
 }
 
@@ -108,7 +116,7 @@ nav ul li a:hover{
 
 /*Contenido*/
 .contenido{
-    background-image: url("../images/mochaGrunge.png");
+    background-image: url("../images/black_lozenge.png");
     z-index: -1000;
 }
 
@@ -117,7 +125,7 @@ nav ul li a:hover{
 }
 
 .card a{
-    background-color: #000000;
+    background-color: #bf930d;
     border-radius: 0;
 }
 
@@ -137,17 +145,29 @@ nav ul li a:hover{
 .carousel-caption{
     left: 10%;
     top: 0;
-    width: 50%;
-    height: 60%;
-    padding: 40px;
+    left:0;
+    right: 0;
+    bottom: 0;
     text-align: left;
     background-color: rgba(0, 0, 0, .5);
 }
+
+.logo-caption{
+    padding-left: 30%;
+    padding-top: 10%;
+}
 .carousel-caption h2{
     font-size: 150%;
+    text-align: justify;
+}
+
+.main-caption{
+    margin-top: 20%;
+    text-align: center;
 }
 .sub-caption a{
-    background-color: #000000;
+    margin-left: 40%;
+    background-color: #bf930d;
     border-radius: 0;
 }
 /*Introduccion*/
