@@ -29,9 +29,9 @@ $(window).on("scroll", function(){
     $('nav').css("top", "0px");
     $('nav').css("left", "0px");
     $('nav').css("position", "fixed");
-    $('nav ul').css("background-color", "#FFFFFF");
-    $('nav ul li').css("border-right", "1px solid #FFFFFF");
-    $("#menu-navegacion").css("text-align","right");
+    $('nav ul').css("background-color", "#2c2c2c");
+    $('nav ul li').css("border-right", "1px solid #000000");
+    $("#menu-navegacion").css("text-align","center");
     //Si la ventana es menor a 580px de ancho, no muestra el 
     //logotipo pequeño, con el efecto scroll
     if($(window).width() <= 580){
@@ -47,6 +47,6 @@ function quitarAparienciaAlNav(){
     $('nav').css("left", "0px");
     $('nav').css("position", "static");
     $('nav ul li:not(:last-child)').css("border-right", "1px solid #000000");
-    $("#menu-navegacion").css("text-align","right");
+    $("#menu-navegacion").css("text-align","center");
     $("#small-logo").hide().css("position", "static");
 };
