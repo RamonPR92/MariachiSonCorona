@@ -29,7 +29,7 @@ $(window).on("scroll", function(){
     $('nav').css("top", "0px");
     $('nav').css("left", "0px");
     $('nav').css("position", "fixed");
-    $('nav ul').css("background-color", "#2c2c2c");
+    $('nav ul').css("background-color", "#000000");
     $('nav ul li').css("border-right", "1px solid #000000");
     $("#menu-navegacion").css("text-align","center");
     //Si la ventana es menor a 580px de ancho, no muestra el 
