@@ -168,15 +168,29 @@ nav ul li a:hover{
     background-color: #BF9414;
     color: #2c2c2c;
 }
-/*Introduccion*/
+/*Nosotros Index*/
 
-.introduccion .parrafo{
- background-color: #ffffff;   
- text-align: center;
- padding:  30px;
- 
+.nosotros-index .parrafo{
+    background: #000000;
 }
 
+.nosotros-index .nosotros-descripcion{
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nosotros-index .nosotros-descripcion a{
+    margin-left: 50%;
+    margin-top: 8%;
+    background: #2c2c2c;
+}
+
+.nosotros-index .nosotros-descripcion a:hover{
+    background: #DC9924;
+    color: #2c2c2c;
+}
 /*Cocinas y accesorios*/
 .intro-cocinas .col-lg-8{
     background-color: #ffffff;
