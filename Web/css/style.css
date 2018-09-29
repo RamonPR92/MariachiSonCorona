@@ -345,6 +345,10 @@ footer a:hover{
         padding-left: 15%;
     }
 
+    .sub-caption{
+        padding-top: 30%;
+    }
+
 }
 
 @media(max-width: 768px){
