@@ -174,7 +174,24 @@ nav ul li a:hover{
     background: #000000;
 }
 
-.nosotros-index .nosotros-descripcion{
+.nosotros-index .row{
+    padding: 0;
+    margin: 0;
+}
+
+.nosotros-index .row .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+
+.nosotros-index .nosotros-descripcion h4{
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nosotros-index .nosotros-descripcion p{
     color: #ffffff;
     padding-top: 10%;
     padding-left: 5%;
@@ -191,12 +208,44 @@ nav ul li a:hover{
     background: #DC9924;
     color: #2c2c2c;
 }
-/*Cocinas y accesorios*/
-.intro-cocinas .col-lg-8{
-    background-color: #ffffff;
+/*Servicios index**/
+.servicios-index .parrafo{
+    background: #000000;
 }
-.intro-cocinas .row{
-   margin-top: 30px;
+
+.servicios-index .row{
+    padding: 0;
+    margin: 0;
+}
+
+.servicios-index .row .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+
+.servicios-index .servicios-descripcion h4{
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.servicios-index .servicios-descripcion p{
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.servicios-index .servicios-descripcion a{
+    margin-left: 50%;
+    margin-top: 8%;
+    background: #2c2c2c;
+}
+
+.servicios-index .servicios-descripcion a:hover{
+    background: #DC9924;
+    color: #2c2c2c;
 }
 
 /*Contacto y ubicacion*/
