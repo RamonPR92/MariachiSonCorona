@@ -289,35 +289,69 @@ nav ul li a:hover{
 }
 
 /*Contacto y ubicacion*/
-.intro-contacto .row{
-    margin:30px;
-}
-.intro-contacto .col-lg-8{
-    background-color: #ffffff;
+/*Galeria index*/
+.contacto-index .parrafo{
+    background: #000000;
 }
 
-.intro-contacto p {
-    margin-top: 40px;
-    margin: 30px 20px;
+.contacto-index .row{
+    padding: 0;
+    margin: 0;
+}
+
+.contacto-index .row .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+
+.contacto-index h4{
+    color: #ffffff;
     text-align: center;
+    padding: 5%;
+    padding-bottom: 0%;
 }
 
-.formulario a{
-    text-align: left;
-    display: block;
-    padding: 10px 0%;
-    color: #000000;
+.contacto-index p{
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 5%;
 }
-.formulario a:hover{
+
+.contacto-index .parrafo{
+    padding-bottom: 5%;
+}
+
+.contacto-index .contacto-inferior-index{
+    padding: 10%;
+}
+
+.contacto-index .contacto-inferior-index a{
+    display: block;
+    padding: 2%;
+    color: #ffffff;
+}
+
+.contacto-index .contacto-form {
+    padding: 5%;
+}
+
+.contacto-index .contacto-form label {
+    color: #ffffff;
+}
+
+.contacto-index .contacto-inferior-index a:hover{
+    color: #DC9924;
     text-decoration: none;
 }
-.formulario form{
-    margin-top: 20px;
+
+.contacto-index .contacto-form button{
+    background: #2c2c2c;
+    color: #ffffff;
 }
 
-.formulario form button{
-    background-color: #000000;
-    border-radius: 0;
+.contacto-index .contacto-form button:hover{
+    color: #2c2c2c;
+    background: #DC9924;
 }
 /**************
 *   NOSOTROS  *
