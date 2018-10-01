@@ -248,6 +248,46 @@ nav ul li a:hover{
     color: #2c2c2c;
 }
 
+/*Galeria index*/
+.galeria-index .parrafo{
+    background: #000000;
+}
+
+.galeria-index .row{
+    padding: 0;
+    margin: 0;
+}
+
+.galeria-index .row .col-lg-6{
+    padding: 0;
+    margin: 0;
+}
+
+.galeria-index .galeria-descripcion h4{
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.galeria-index .galeria-descripcion p{
+    color: #ffffff;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.galeria-index .galeria-descripcion a{
+    margin-left: 50%;
+    margin-top: 8%;
+    background: #2c2c2c;
+}
+
+.galeria-index .galeria-descripcion a:hover{
+    background: #DC9924;
+    color: #2c2c2c;
+}
+
 /*Contacto y ubicacion*/
 .intro-contacto .row{
     margin:30px;
