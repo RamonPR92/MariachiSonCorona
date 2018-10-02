@@ -184,6 +184,27 @@ nav ul li a:hover{
     margin: 0;
 }
 
+.nosotros-index .card{
+    background: #000000;
+}
+
+.nosotros-index .card .card-body .card-title{
+    color: #ffffff;
+}
+
+.nosotros-index .card .card-body .card-text{
+    color: #ffffff;
+}
+
+.nosotros-index .card .card-body a{
+    background: #2c2c2c;
+}
+
+.nosotros-index .card .card-body a:hover{
+    background: #DC9924;
+    color: #2c2c2c;
+}
+
 .nosotros-index .nosotros-descripcion h4{
     color: #ffffff;
     padding-top: 10%;
@@ -221,6 +242,27 @@ nav ul li a:hover{
 .servicios-index .row .col-lg-6{
     padding: 0;
     margin: 0;
+}
+
+.servicios-index .card{
+    background: #000000;
+}
+
+.servicios-index .card .card-body .card-title{
+    color: #ffffff;
+}
+
+.servicios-index .card .card-body .card-text{
+    color: #ffffff;
+}
+
+.servicios-index .card .card-body a{
+    background: #2c2c2c;
+}
+
+.servicios-index .card .card-body a:hover{
+    background: #DC9924;
+    color: #2c2c2c;
 }
 
 .servicios-index .servicios-descripcion h4{
@@ -261,6 +303,27 @@ nav ul li a:hover{
 .galeria-index .row .col-lg-6{
     padding: 0;
     margin: 0;
+}
+
+.galeria-index .card{
+    background: #000000;
+}
+
+.galeria-index .card .card-body .card-title{
+    color: #ffffff;
+}
+
+.galeria-index .card .card-body .card-text{
+    color: #ffffff;
+}
+
+.galeria-index .card .card-body a{
+    background: #2c2c2c;
+}
+
+.galeria-index .card .card-body a:hover{
+    background: #DC9924;
+    color: #2c2c2c;
 }
 
 .galeria-index .galeria-descripcion h4{
@@ -331,8 +394,8 @@ nav ul li a:hover{
     color: #ffffff;
 }
 
-.contacto-index .contacto-form {
-    padding: 5%;
+.contacto-index .contacto-form form {
+  padding: 5%;
 }
 
 .contacto-index .contacto-form label {
