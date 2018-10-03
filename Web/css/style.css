@@ -7,7 +7,18 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'andaluzia_personal_useregular';
+    src: url('../fonts/andaluzia_personal_use-webfont.eot');
+    src: url('../fonts/andaluzia_personal_use-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/andaluzia_personal_use-webfont.woff2') format('woff2'),
+         url('../fonts/andaluzia_personal_use-webfont.woff') format('woff'),
+         url('../fonts/andaluzia_personal_use-webfont.ttf') format('truetype'),
+         url('../fonts/andaluzia_personal_use-webfont.svg#andaluzia_personal_useregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 body{
     font-family: Roboto;
@@ -189,7 +200,8 @@ nav ul li a:hover{
 }
 
 .nosotros-index .card .card-body .card-title{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
 }
 
 .nosotros-index .card .card-body .card-text{
@@ -206,7 +218,8 @@ nav ul li a:hover{
 }
 
 .nosotros-index .nosotros-descripcion h4{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
@@ -249,7 +262,8 @@ nav ul li a:hover{
 }
 
 .servicios-index .card .card-body .card-title{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
 }
 
 .servicios-index .card .card-body .card-text{
@@ -266,7 +280,8 @@ nav ul li a:hover{
 }
 
 .servicios-index .servicios-descripcion h4{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
@@ -310,7 +325,8 @@ nav ul li a:hover{
 }
 
 .galeria-index .card .card-body .card-title{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
 }
 
 .galeria-index .card .card-body .card-text{
@@ -327,7 +343,8 @@ nav ul li a:hover{
 }
 
 .galeria-index .galeria-descripcion h4{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
     padding-top: 10%;
     padding-left: 5%;
     padding-right: 5%;
@@ -368,7 +385,8 @@ nav ul li a:hover{
 }
 
 .contacto-index h4{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
     text-align: center;
     padding: 5%;
     padding-bottom: 0%;
@@ -440,7 +458,8 @@ nav ul li a:hover{
 }
 
 .contenido .nosotros .nosotros-cuerpo .card-title{
-    color: #ffffff;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
 }
 
 .contenido .nosotros .nosotros-cuerpo .card-text{
