@@ -487,16 +487,93 @@ nav ul li a:hover{
 
 
 /*************
-*   COCINAS  *
+*   PRECIOS Y SERVICIOS *
 **************/
-.cocinas .cuerpo{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.servicios{
+    background: #000000;
 }
 
-.cocinas .cuerpo .card{
-    margin-top: 20px;
-} 
+.servicios .servicios-encabezado{
+    text-align: center;
+}
+.servicios h3{
+    padding-top: 5%;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;  
+}
+
+.servicios .servicios-intro {
+    text-align: center;
+}
+
+.servicios .servicios-intro p{
+    color: #ffffff;
+    padding: 5%;
+}
+
+.servicios .precios .card{
+   background: #000000;
+   border-style: solid;
+   border-radius: 2%;;
+   border-color: #DC9924;
+   margin-top: 2%;
+}
+
+.servicios .precios .card img{
+    border-radius: 5%;
+}
+
+.servicios .precios .card .card-title{
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924; 
+}
+
+.servicios .precios .card .card-text{
+    color: #ffffff;
+}
+
+.servicios .precios .card .list-group-item{
+    background: #000000;
+    color: #ffffff;
+}
+
+.servicios .precios .card .list-group-item .item-servicio-encabezado .nombre-servicio{
+   display: inline-block;
+}
+
+.servicios .precios .card .list-group-item .item-servicio-encabezado .precio-servicio{
+    float: right;
+    font-size: 150%; 
+    display: inline-block;
+ }
+
+ .servicios .precios .card .list-group-item  .servicio-descripcion{
+    font-size: 90%;
+    color: #d3cbcb;
+    display: block;
+    padding-left: 5%;
+ }
+.servicios .precios .card .list-group-item .fa-dollar{
+    color: #DC9924;
+}
+
+.servicios .servicio-completo{
+    text-align: center;
+    padding: 5%;
+}
+
+.servicios .servicio-completo h4{
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
+    display: block;
+}
+
+.servicios .servicio-completo p{
+    color: #ffffff;
+    display: block;
+}
+
+
 
 /****************
 *   ACCESORIOS  *
