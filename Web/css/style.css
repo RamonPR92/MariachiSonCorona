@@ -28,8 +28,13 @@ body{
 .container-fluid {
     padding-right:0;
     padding-left:0;
-    margin-right:auto;
-    margin-left:auto
+    margin-right:0;
+    margin-left:0
+ }
+
+ .row{
+     margin-right: 0;
+     padding-right: 0;
  }
 
 header{
@@ -395,7 +400,7 @@ nav ul li a:hover{
 .contacto-index p{
     color: #ffffff;
     text-align: center;
-    padding-bottom: 5%;
+    padding: 5%;
 }
 
 .contacto-index .parrafo{
