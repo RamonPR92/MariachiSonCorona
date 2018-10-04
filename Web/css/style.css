@@ -666,6 +666,15 @@ nav ul li a:hover{
     color: #d3cbcb;
 }
 
+.contacto .contacto-contacto .contacto-form .btn-secondary{
+   background: #2c2c2c;
+}
+
+.contacto .contacto-contacto .contacto-form .btn-secondary:hover{
+    background: #DC9924;
+    color: #2c2c2c;
+ }
+
 /*Footer*/
 footer{
     background-color:  #000000;
