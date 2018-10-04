@@ -14,8 +14,8 @@ $mensaje .= "Su e-mail es: " . $email . " \r\n";
 $mensaje .= "Mensaje: " . $cuerpo . " \r\n";
 $mensaje .= "Enviado el " . date('d/m/Y', time());
 
-$para = 'contacto@lomejorencocinas.com';
-$asunto = 'LoMejorEnCocinas';
+$para = 'bigpirru@hotmail.com';
+$asunto = 'Mariachi Son Corona';
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
 header("Location:index.html");

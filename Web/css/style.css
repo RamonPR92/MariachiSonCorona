@@ -625,14 +625,46 @@ nav ul li a:hover{
 *   CONTACTO  *
 *****************/
 .contenido .contacto{
-    background-color: #ffffff;
-    padding: 30px;
-}
-
-.contacto h2{
+    background-color: #000000;
     text-align: center;
+    padding-top: 5%;
 }
 
+.contacto h3{
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924;
+}
+
+.contacto .contacto-contenido img{
+    padding: 5%;
+}
+
+.contacto .contacto-contenido p{
+    padding-top: 20%;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: #ffffff;
+}
+
+.contacto .contacto-contacto{
+    padding: 5%;
+    text-align: left;
+}
+
+.contacto .contacto-contacto .contacto-redes a{
+    display: block;
+    color: #ffffff;
+    padding: 3%;
+}
+
+.contacto .contacto-contacto .contacto-redes a:hover{
+   text-decoration: none;
+    color: #DC9924;
+}
+
+.contacto .contacto-contacto .contacto-form{
+    color: #d3cbcb;
+}
 
 /*Footer*/
 footer{
