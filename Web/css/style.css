@@ -606,20 +606,45 @@ nav ul li a:hover{
 
 
 /****************
-*   ACCESORIOS  *
+*   GALERIA  *
 *****************/
-
-
-.accesorios{
-    background-color: #ffffff;
-    padding: 0;
-    margin: 0;
+.galeria{
+    background: #000000;
     text-align: center;
-
+    padding-bottom: 5%;
+}
+.galeria h3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: 'andaluzia_personal_useregular';
+    color: #DC9924; 
 }
 
-.materiales .img-thumbnail{
-    height: 200px;
+.galeria .row{
+    padding-top:1%;
+    
+}
+
+.galeria .img-thumbnail{
+    padding: .10rem;
+}
+
+.galeria .portada .img-thumbnail{
+   padding: .10rem;
+   width: 95%;
+}
+
+.galeria .contacto-inferior{
+    padding: 10%;
+}
+
+.galeria .contacto-inferior a{
+    padding-left: 3%;
+    color: #ffffff;
+}
+.galeria .contacto-inferior a:hover{
+   text-decoration: none;
+   color: #DC9924;
 }
 /****************
 *   CONTACTO  *
