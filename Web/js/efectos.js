@@ -1,6 +1,12 @@
+var btnColor = "#DC9924";
+var btnBackGround = "#000000";
+
 $(document).ready(function () {
     //$("#small-logo").hide();
-    $(".menu-icon").on("click", function(){
+
+    window.setInterval(parpadear, 500);
+    
+        $(".menu-icon").on("click", function(){
         $("nav ul").toggleClass("showing");
     });
 
@@ -50,3 +56,11 @@ function quitarAparienciaAlNav(){
     $("#menu-navegacion").css("text-align","center");
     $("#small-logo").hide().css("position", "static");
 };
+
+function parpadear(){
+    var btn_parpadeante = document.getElementById("btn-parpadeante");
+    btnColor = (btnColor == "#DC9924")? "#000000" : "#DC9924";
+    btnBackGround = (btnBackGround == "#000000")?"#DC9924": "#000000";
+    btn_parpadeante.style.color = btnColor;
+    btn_parpadeante.style.background = btnBackGround;
+}
