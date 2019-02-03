@@ -528,6 +528,15 @@ header .btn-secondary:hover{
     padding: 5%;
 }
 
+.servicios .servicios-intro a{
+    color: #ffffff;
+}
+
+.servicios .servicios-intro a:hover{
+    color: #DC9924;
+    text-decoration: none;
+}
+
 .servicios .precios .card{
    background: #000000;
    border-style: solid;
