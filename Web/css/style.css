@@ -537,6 +537,9 @@ header .btn-secondary:hover{
     text-decoration: none;
 }
 
+.servicios .precios{
+    text-align: left;
+}
 .servicios .precios .card{
    background: #000000;
    border-style: solid;
