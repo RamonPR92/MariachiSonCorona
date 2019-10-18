@@ -303,14 +303,17 @@ header .btn-secondary:hover{
     margin: 0;
 } 
 
-.contenido .nosotros .nosotros-cuerpo .card{
-    background-color: #000000;
-    margin-bottom: 0;
-    padding-bottom: 10%;
+ .nosotros-cuerpo .card .card-img-overlay .card-title {
+    margin-left: 2%;
+    margin-top: 40%;
 }
 
 .contenido .nosotros .nosotros-cuerpo .card .mb-3 .my-3{
     margin-bottom: 0rem;
+}
+
+.card-text .text-muted{
+    color: #000000;
 }
 
 .contenido .nosotros .nosotros-cuerpo .card-title{
@@ -325,6 +328,7 @@ header .btn-secondary:hover{
 .contenido .nosotros .contacto-inferior-nosotros{
     background: #000000;
     text-align: center;
+    padding-top: 4%;
 }
 
 .contenido .nosotros .contacto-inferior-nosotros a{
@@ -638,6 +642,15 @@ footer a:hover{
         margin-top: 20%;
     }
 
+    .nosotros-cuerpo .card .card-img-overlay .card-title {
+        margin-left: 2%;
+        margin-top: 0%;
+        font-size: 150%;
+    }
+
+    .nosotros-cuerpo .card .card-img-overlay .card-text {
+     font-size: 90%;
+    }
 }
 
 @media(max-width: 768px){
