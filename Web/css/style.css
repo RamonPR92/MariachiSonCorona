@@ -24,6 +24,10 @@ body{
     font-family: Roboto;
 }
 
+.btn-secondary{
+    border-radius: 0%;
+}
+
 /*Header*/
 .container-fluid {
     padding-right:0;
@@ -188,205 +192,40 @@ header .btn-secondary:hover{
     
 }
 .sub-caption a{
-    background-color: #2c2c2c;
-    border-radius: 5;
+    background-color: #000000;
 }
 
 .sub-caption a:hover{
     background-color: #BF9414;
     color: #2c2c2c;
 }
-/*Nosotros Index*/
 
-.nosotros-index .parrafo{
-    background: #000000;
-}
-
-.nosotros-index .row{
-    padding: 0;
-    margin: 0;
-}
-
-.nosotros-index .row .col-lg-6{
-    padding: 0;
-    margin: 0;
-}
-
-.nosotros-index .card{
-    background: #000000;
-}
-
-.nosotros-index .card .card-body .card-title{
+/*Nosotros, Servicios, Galeria*/
+.card .card-img-overlay .card-title{
     font-family: 'andaluzia_personal_useregular';
     color: #DC9924;
+    font-size: 200%;
 }
 
-.nosotros-index .card .card-body .card-text{
-    color: #ffffff;
+.card .card-img-overlay .card-title {
+    margin-left: 2%;
+    margin-top: 45%;
+}
+ .card .card-img-overlay a{
+    background: #000000;
 }
 
-.nosotros-index .card .card-body a{
-    background: #2c2c2c;
-}
-
-.nosotros-index .card .card-body a:hover{
+.card .card-img-overlay a:hover{
     background: #DC9924;
     color: #2c2c2c;
 }
 
-.nosotros-index .nosotros-descripcion h4{
-    font-family: 'andaluzia_personal_useregular';
-    color: #DC9924;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
+.card-img{
+    filter: brightness(50%);
 }
 
-.nosotros-index .nosotros-descripcion p{
-    color: #ffffff;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.nosotros-index .nosotros-descripcion a{
-    margin-left: 50%;
-    margin-top: 8%;
-    background: #2c2c2c;
-}
-
-.nosotros-index .nosotros-descripcion a:hover{
-    background: #DC9924;
-    color: #2c2c2c;
-}
-/*Servicios index**/
-.servicios-index .parrafo{
-    background: #000000;
-}
-
-.servicios-index .row{
-    padding: 0;
-    margin: 0;
-}
-
-.servicios-index .row .col-lg-6{
-    padding: 0;
-    margin: 0;
-}
-
-.servicios-index .card{
-    background: #000000;
-}
-
-.servicios-index .card .card-body .card-title{
-    font-family: 'andaluzia_personal_useregular';
-    color: #DC9924;
-}
-
-.servicios-index .card .card-body .card-text{
-    color: #ffffff;
-}
-
-.servicios-index .card .card-body a{
-    background: #2c2c2c;
-}
-
-.servicios-index .card .card-body a:hover{
-    background: #DC9924;
-    color: #2c2c2c;
-}
-
-.servicios-index .servicios-descripcion h4{
-    font-family: 'andaluzia_personal_useregular';
-    color: #DC9924;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.servicios-index .servicios-descripcion p{
-    color: #ffffff;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.servicios-index .servicios-descripcion a{
-    margin-left: 50%;
-    margin-top: 8%;
-    background: #2c2c2c;
-}
-
-.servicios-index .servicios-descripcion a:hover{
-    background: #DC9924;
-    color: #2c2c2c;
-}
-
-/*Galeria index*/
-.galeria-index .parrafo{
-    background: #000000;
-}
-
-.galeria-index .row{
-    padding: 0;
-    margin: 0;
-}
-
-.galeria-index .row .col-lg-6{
-    padding: 0;
-    margin: 0;
-}
-
-.galeria-index .card{
-    background: #000000;
-}
-
-.galeria-index .card .card-body .card-title{
-    font-family: 'andaluzia_personal_useregular';
-    color: #DC9924;
-}
-
-.galeria-index .card .card-body .card-text{
-    color: #ffffff;
-}
-
-.galeria-index .card .card-body a{
-    background: #2c2c2c;
-}
-
-.galeria-index .card .card-body a:hover{
-    background: #DC9924;
-    color: #2c2c2c;
-}
-
-.galeria-index .galeria-descripcion h4{
-    font-family: 'andaluzia_personal_useregular';
-    color: #DC9924;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.galeria-index .galeria-descripcion p{
-    color: #ffffff;
-    padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-.galeria-index .galeria-descripcion a{
-    margin-left: 50%;
-    margin-top: 8%;
-    background: #2c2c2c;
-}
-
-.galeria-index .galeria-descripcion a:hover{
-    background: #DC9924;
-    color: #2c2c2c;
-}
 
 /*Contacto y ubicacion*/
-/*Galeria index*/
 .contacto-index .parrafo{
     background: #000000;
 }
@@ -443,13 +282,13 @@ header .btn-secondary:hover{
 }
 
 .contacto-index .contacto-form button{
-    background: #2c2c2c;
-    color: #ffffff;
+    background: #DC9924;
+    color: #000000;
 }
 
 .contacto-index .contacto-form button:hover{
-    color: #2c2c2c;
-    background: #DC9924;
+    color: #DC9924;
+    background: #000000;
 }
 /**************
 *   NOSOTROS  *
@@ -792,6 +631,11 @@ footer a:hover{
 
     .sub-caption{
         padding-top: 30%;
+    }
+
+    .card .card-img-overlay .card-title {
+        margin-left: 2%;
+        margin-top: 20%;
     }
 
 }
