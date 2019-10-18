@@ -10,6 +10,9 @@ $(document).ready(function () {
         $("nav ul").toggleClass("showing");
     });
 
+    $(".img-fluid").addClass("wow fadeIn z-depth-1-half");
+    new WOW().init();
+
 });
 
 $(window).on("scroll", function(){

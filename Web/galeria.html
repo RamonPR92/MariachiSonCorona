@@ -100,13 +100,56 @@
         <!--Nosotros Index-->
         <div class="row ">
             <div class="col-lg-2"></div>
-            <div class="col-lg-8 galeria">
+            <div class="col-lg-8 card-columns" id="galeria">
+
+               <!-- <div class="card">
+                    <a href="#" data-toggle="modal" data-target=#example>
+                        <img src="images/galeria/cuadradas/mariachi (13).jpeg" alt="" class="card-img-top">
+                    </a>
+                </div>
+                <div class="modal fade" id="example" tabindex="-1" role="dialog" aria-labelledby="exampleLabel" aria-hidden="true">
+                    <button type="button" class="close mr-2" data-dimmis="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                        <img src="images/galeria/cuadradas/mariachi (13).jpeg" alt="" class="img-fluid rounded">
+                    </div>
+                </div>-->
+
+               <script>
+               var imagenes = new Array();
+               for (let index = 1; index <= 30; index++) {
+                   imagenes.push(index);            
+               }
+
+                var galeria = document.getElementById('galeria');
+                for(imagen of imagenes) {
+                    galeria.innerHTML += `
+                    <div class="card">
+                    <a href="#" data-toggle="modal" data-target=#id${imagen}>
+                        <img src="images/galeria/img (${imagen}).jpeg" alt="" class="card-img-top">
+                    </a>
+                    </div>
+                    <div class="modal fade" id="id${imagen}" tabindex="-1" role="dialog" aria-labelledby="exampleLabel" aria-hidden="true">
+                        <button type="button" class="close mr-2" data-dimmis="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                            <img src="images/galeria/img (${imagen}).jpeg" alt="" class="img-fluid rounded">
+                        </div>
+                    </div>
+                    `
+                }
+               </script>
+        
+            </div>
+            <!--<div class="col-lg-8 galeria">
                 <div class="row">
                     <div class="col-lg-12">
                         <h3>Galeria</h3>
                     </div>
                 </div>
-                <!--Horizontales-->
+           
                 <div class="row portada">
                     <div class="col-sm-6 col-lg-12 ">
                         <a href="images/galeria/horizontales/mariachi (5).jpeg" data-lightbox="image-1" data-title="Mariachi 1">
@@ -138,7 +181,7 @@
                         </a>
                     </div>
                 </div>
-                <!--Verticales-->
+           
                 <div class="row">
                     <div class="col-sm-6 col-lg-4">
                         <a href="images/galeria/verticales/mariachi (1).jpeg" data-lightbox="image-1" data-title="Mariachi 1">
@@ -271,7 +314,7 @@
                         </a>
                     </div>
                 </div>
-                <!--Cuadradas-->
+           
                 <div class="row">
                     <div class="col-sm-6 col-lg-3">
                         <a href="images/galeria/cuadradas/mariachi (1).jpeg" data-lightbox="image-1" data-title="Mariachi 1">
@@ -658,7 +701,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2"></div>
-            </div>
+            </div>-->
         </div>
 
         <!--Footer-->
