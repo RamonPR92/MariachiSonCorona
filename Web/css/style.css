@@ -526,6 +526,15 @@ header .btn-secondary:hover{
     color: #DC9924;
 }
 
+.contacto .img-logo{
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.contacto .card .card-img-overlay .card-text{
+    margin-top: 50%;
+}
+
 .contacto .contacto-contenido img{
     padding: 5%;
 }
@@ -580,6 +589,7 @@ footer a:hover{
     color: #DC9924;
     text-decoration: none;
 }
+
 @media(max-width:580px){
     .logo{
         top:0;
@@ -639,19 +649,35 @@ footer a:hover{
 
     .card .card-img-overlay .card-title {
         margin-left: 2%;
-        margin-top: 20%;
+        margin-top: 5%;
+        font-size: 110%;
+    }
+
+    .card .card-img-overlay .card-text{
+        font-size: 80%;
+    }
+
+    .nosotros-cuerpo .card .card-img-overlay{
+        padding : 5%;
     }
 
     .nosotros-cuerpo .card .card-img-overlay .card-title {
         margin-left: 2%;
         margin-top: 0%;
-        font-size: 150%;
+        font-size: 50%;
     }
 
     .nosotros-cuerpo .card .card-img-overlay .card-text {
-     font-size: 90%;
+     font-size: 50%;
+    }
+
+    .contacto .card .card-img-overlay .card-text{
+        margin-top: 30%;
+        font-size: 60%;
     }
 }
+
+
 
 @media(max-width: 768px){
     .logo{
@@ -660,10 +686,28 @@ footer a:hover{
         margin: 0;
     }
 
+    .card .card-img-overlay .card-title {
+        margin-left: 2%;
+        margin-top: 15%;
+    }
+
+    .nosotros-cuerpo .card .card-img-overlay .card-title {
+        margin-left: 2%;
+        margin-top: 0%;
+        font-size: 50%;
+    }
+
 }
 
-@media(max-width: 1024){
+@media(max-width: 992px){
     .contacto-superior a{
         display: block;
     }
+
+    .nosotros-cuerpo .card .card-img-overlay .card-title {
+        margin-left: 2%;
+        margin-top: 5%;
+        font-size: 150%;
+    }
 }
+
