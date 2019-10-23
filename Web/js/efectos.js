@@ -4,6 +4,8 @@ var btnBackGround = "#000000";
 $(document).ready(function () {
     //$("#small-logo").hide();
 
+    $("#sliderMariachi").carousel({interval: 1500});
+
     window.setInterval(parpadear, 500);
     
         $(".menu-icon").on("click", function(){
