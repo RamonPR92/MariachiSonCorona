@@ -592,6 +592,24 @@ header .btn-secondary:hover{
     color: #2c2c2c;
  }
 
+ .contacto .formas-pago{
+    text-align: left;
+ }
+
+ .contacto .formas-pago h3{
+     text-align: center;
+ }
+
+ .contacto .formas-pago h5{
+     color: #ffffff;
+     margin-left: 10%;
+ }
+
+ .contacto .formas-pago p{
+     color: #ffffff;
+     margin-left: 10%;
+ }
+
 /*Footer*/
 footer{
     background-color:  #000000;
