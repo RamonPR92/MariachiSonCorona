@@ -387,6 +387,16 @@ header .btn-secondary:hover{
     text-decoration: none;
 }
 
+.servicios .btn-secondary{
+    color: #DC9924;
+    background: #000000;
+}
+
+.servicios .btn-secondary:hover{
+    color: #000000;
+    background: #DC9924;
+}
+
 .servicios .precios{
     text-align: left;
 }
