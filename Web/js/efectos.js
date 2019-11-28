@@ -1,4 +1,4 @@
-var btnColor = "#DC9924";
+var btnColor = "#368a16";
 var btnBackGround = "#000000";
 
 $(document).ready(function () {
@@ -64,8 +64,8 @@ function quitarAparienciaAlNav(){
 
 function parpadear(){
     var btn_parpadeante = document.getElementById("btn-parpadeante");
-    btnColor = (btnColor == "#DC9924")? "#000000" : "#DC9924";
-    btnBackGround = (btnBackGround == "#000000")?"#DC9924": "#000000";
+    btnColor = (btnColor == "#368a16")? "#000000" : "#368a16";
+    btnBackGround = (btnBackGround == "#000000")?"#368a16": "#000000";
     btn_parpadeante.style.color = btnColor;
     btn_parpadeante.style.background = btnBackGround;
 }
