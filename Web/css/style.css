@@ -174,11 +174,6 @@ header .btn-secondary:hover{
  margin-left: 30;
 }
 
-.logo-main{
-    margin-top:35%;
-    margin-left: 70%;
-}
-
 .carousel-caption{
     left: 0;
     top: 0;
@@ -192,6 +187,12 @@ header .btn-secondary:hover{
     padding-left: 5%;
     
 }
+
+.sub-caption{
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
 .sub-caption a{
     background-color: #000000;
 }
@@ -199,6 +200,11 @@ header .btn-secondary:hover{
 .sub-caption a:hover{
     background-color: #BF9414;
     color: #2c2c2c;
+}
+
+.logo-main{
+    margin-top:10%;
+    margin-left: 60%;
 }
 
 /*Nosotros, Servicios, Galeria*/
@@ -645,7 +651,8 @@ footer a:hover{
     }
 
     .sub-caption{
-        padding-top: 30%;
+        margin-top: 30%;
+        margin-left: 0%;
     }
 
     .card .card-img-overlay .card-title {
