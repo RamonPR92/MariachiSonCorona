@@ -132,17 +132,18 @@ nav ul li a:hover{
 }
 
 header .btn-secondary{
-    color: #368a16;
-    background: #000000;
+    color: #ffffff;
+    background: #368a16;
     position: fixed;
     margin-left: 80%;
     margin-top: 5px;
     padding: 5px; 
+    border-radius: 8%;
 }
 
 header .btn-secondary:hover{
-    color: #DC9924;
-    background: #000000;
+    color: #ffffff;
+    background: #3fb512;
 }
 /*Fin del header*/
 
