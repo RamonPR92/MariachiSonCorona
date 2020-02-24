@@ -431,6 +431,16 @@ header .btn-secondary:hover{
    display: inline-block;
 }
 
+.servicios .card .card-body a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.servicios .card .card-body a:hover{
+    color: #DC9924;
+    text-decoration: none;
+}
+
 .servicios .precios .card .list-group-item .item-servicio-encabezado .precio-servicio{
     float: right;
     font-size: 150%; 
@@ -636,7 +646,7 @@ footer a:hover{
 
     header .btn-secondary{
         position: fixed;
-        margin-left: 70%;
+        margin-left: 60%;
         margin-top: 15px; 
     }
     nav{
